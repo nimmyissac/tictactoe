@@ -1,0 +1,15 @@
+body{
+ background-color: grey;
+}
+.tictacBox {
+ border-color: black;
+ background-color:white;
+ width: 20px;
+ height:20px;
+ 
+ padding: 5px;
+ display: inline-block;
+}
+.mainDiv{
+ margin: 50px;
+}
