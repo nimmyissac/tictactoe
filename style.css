@@ -2,14 +2,14 @@ body{
  background-color: grey;
 }
 .tictacBox {
- border-color: black;
  background-color:white;
- width: 20px;
- height:20px;
+ width: 50px;
+ height:50px;
  
  padding: 5px;
  display: inline-block;
 }
-.mainDiv{
- margin: 50px;
+.disabledbutton {
+    pointer-events: none;
+    opacity: 0.4;
 }

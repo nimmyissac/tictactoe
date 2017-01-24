@@ -6,20 +6,20 @@
 </html>
 
 <body>
- <div class ="mainDiv">
-  <div id = "1" class ="tictacBox"></div>
-  <div id = "2" class ="tictacBox"></div>
-  <div id = "3" class ="tictacBox"></div><br/>
-  <div id = "4" class ="tictacBox"></div>
-  <div id = "5" class ="tictacBox"></div>
-  <div id = "6" class ="tictacBox"></div><br/>
-  <div id = "7" class ="tictacBox"></div>
-  <div id = "8" class ="tictacBox"></div>
-  <div id = "9" class ="tictacBox"></div><br/>
- <button onclick="createPlayer('player1')">Player1</button>
- <button onclick="createPlayer('player2')">Player2</button>
- 
-
- </div>
-  
+ <table class ="mainDiv" >
+  <tr>
+    <td><button id = "1" class="tictacBox" onclick ="divOnClick('1')"></button></td>
+    <td><button id = "2" class="tictacBox" onclick ="divOnClick('2')"></button></td>
+    <td><button id = "3" class ="tictacBox" onclick ="divOnClick('3')"></button></td>
+  </tr><tr>
+    <td><button id = "4" class ="tictacBox" onclick ="divOnClick('4')"></button></td>
+    <td><button id = "5" class ="tictacBox" onclick ="divOnClick('5')"></button></td>
+    <td><button id = "6" class ="tictacBox" onclick ="divOnClick('6')"></button></td>
+  </tr><tr>
+    <td><button id = "7" class ="tictacBox" onclick ="divOnClick('7')"></button></td>
+    <td><button id = "8" class ="tictacBox" onclick ="divOnClick('8')"></button></td>
+    <td><button id = "9" class ="tictacBox" onclick ="divOnClick('9')"></button></td>
+  </tr>
+   
+ </table>
 </body>
